@@ -96,6 +96,7 @@ p {
   align-items: center;
   font-size: 4vw;
   transition: 0.3s;
+  cursor: pointer
 }
 
 p:hover {
