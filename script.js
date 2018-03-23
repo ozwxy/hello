@@ -3,8 +3,8 @@ function tweet() {
   var text = document.getElementById('text').value + "%0a%0a";
   if (text == "") { text = "Hello, World!"; }
   var url = 'https://ozwio.github.io/hello/';
-  var tags = 'helloworld,こんにちは世界';
-  var related = 'kodai_ozawa';
+  var tags = 'helloworld,こんにちは世界,你好世界';
+  var related = 'kodai_ozawa,hello_sekai0';
   var url = `https://twitter.com/intent/tweet?text=${text}&url=${url}&hashtags=${tags}&related=${related}`;
   window.open(encodeURI(decodeURI(url)),'twwindow','width=550, height=450, personalbar=0, toolbar=0, scrollbars=1'); return false;
 }
