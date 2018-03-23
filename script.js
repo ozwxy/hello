@@ -2,7 +2,7 @@
 function tweet() {
   var text = document.getElementById('text').value + "%0a%0a";
   if (text == "") { text = "Hello, World!"; }
-  var url = 'https://ozw.io/';
+  var url = 'https://ozwio.github.io/hello/';
   var tags = 'helloworld,こんにちは世界';
   var related = 'kodai_ozawa';
   var url = `https://twitter.com/intent/tweet?text=${text}&url=${url}&hashtags=${tags}&related=${related}`;
